@@ -256,19 +256,19 @@ class DisplayBanner:
     # Read configuration(s)
     def configure(self):
         defaults = {}
-        defaults["message"] = "UNCLASSIFIED"
+        defaults["message"] = "TESTING"
         defaults["fgcolor"] = "#FFFFFF"
         defaults["bgcolor"] = "#007A33"
         defaults["face"] = "liberation-sans"
         defaults["size"] = "small"
         defaults["weight"] = "bold"
         defaults["show_top"] = True
-        defaults["show_bottom"] = True
+        defaults["show_bottom"] = False
         defaults["hres"] = 0
         defaults["vres"] = 0
         defaults["sys_info"] = False
         defaults["opacity"] = 0.75
-        defaults["esc"] = True
+        defaults["esc"] = False
         defaults["spanning"] = False
         defaults["click_to_move"] = False
         defaults["banner_width"] = 0
